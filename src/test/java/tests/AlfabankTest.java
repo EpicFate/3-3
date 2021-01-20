@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class AlfabankTest {
+public class AlfabankTests {
   @Test
   void DepositTest(){
     open("https://alfabank.ru/make-money/");
